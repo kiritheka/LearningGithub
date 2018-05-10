@@ -13,7 +13,9 @@ public class Prefixsuffix {
 			arr[i] = scan.nextInt();
 		
 		boolean flag = true;
-
+for(int k =0;k<5;k++){
+			System.out.println("yes");
+}
 		for (int i = 1; i < arr.length; i++) {
 			int leftSum = 0;
 			int rightSum = 0;
