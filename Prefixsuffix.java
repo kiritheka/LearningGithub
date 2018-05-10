@@ -13,6 +13,7 @@ public class Prefixsuffix {
 			arr[i] = scan.nextInt();
 		
 		boolean flag = true;
+		boolean newflag="hy";
 
 		for (int i = 1; i < arr.length; i++) {
 			int leftSum = 0;
