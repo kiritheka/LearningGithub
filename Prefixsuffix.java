@@ -14,6 +14,10 @@ public class Prefixsuffix {
 		
 		boolean flag = false;
 
+for(int sample=0;sample<2;sample++) {
+				System.out.println(sample);
+			}
+
 		for (int i = 1; i < arr.length; i++) {
 			int leftSum = 0;
 			int rightSum = 0;
