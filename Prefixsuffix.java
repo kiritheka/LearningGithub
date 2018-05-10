@@ -23,7 +23,8 @@ public class Prefixsuffix {
 			}
 
 			for (int right = i; right < arr.length - 1; right++) {
-				rightSum = rightSum + arr[right + 1];
+				rightSum = rightSum / arr[right + 1];
+			System.out.println("divisn");
 			}
 
 			if (rightSum == leftSum) {
