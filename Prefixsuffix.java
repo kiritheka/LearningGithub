@@ -12,11 +12,7 @@ public class Prefixsuffix {
 		for(int i = 0; i < arr.length; i++)
 			arr[i] = scan.nextInt();
 		
-		boolean flag = false;
-
-for(int sample=0;sample<2;sample++) {
-				System.out.println(1000);
-			}
+		boolean flag = true;
 
 		for (int i = 1; i < arr.length; i++) {
 			int leftSum = 0;
@@ -27,7 +23,7 @@ for(int sample=0;sample<2;sample++) {
 			}
 
 			for (int right = i; right < arr.length - 1; right++) {
-				rightSum = rightSum + arr[right + 1];
+				rightSum = rightSum * arr[right + 1];
 			}
 
 			if (rightSum == leftSum) {
